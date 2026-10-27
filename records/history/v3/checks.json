@@ -1,0 +1,14 @@
+{
+  "frozen_hashes": true,
+  "gradient_max_error": 7.994882533779446e-12,
+  "asset_only_inference": true,
+  "batch_independence": true,
+  "all_question_permutation": true,
+  "unseen_ids": true,
+  "invalid_mask": true,
+  "empty_bank": true,
+  "all_invalid_fallback": true,
+  "validation_fresh_process_seconds": 0.8975959999952465,
+  "test_accessed": false,
+  "reference_cpu_verified": false
+}

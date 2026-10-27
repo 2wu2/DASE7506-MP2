@@ -1,0 +1,8 @@
+{
+  "batch_independence": true,
+  "empty_bank": true,
+  "candidate_permutation": true,
+  "assets_bytes": 25939,
+  "validation_full_process_seconds": 1.3047547999885865,
+  "reference_cpu_verified": false
+}

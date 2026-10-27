@@ -1,0 +1,28 @@
+{
+  "variants": [
+    "baseline",
+    "arithmetic",
+    "consistency",
+    "constraints",
+    "all",
+    "evidence_only",
+    "fusion"
+  ],
+  "seed": 20261027,
+  "outer_folds": 3,
+  "fusion_inner_folds": 3,
+  "fixed_training": {
+    "family": "listwise",
+    "mode": "combined",
+    "reg": 0.03,
+    "grouping": true,
+    "mask": true,
+    "hidden": 0,
+    "epochs": 80
+  },
+  "selection": "beats baseline pooled hard accuracy, improves hard accuracy in at least 2 folds; rank by pooled hard then overall",
+  "fallback": "baseline if no qualifying improvement",
+  "validation": "one evaluation after configuration and assets frozen",
+  "test_access": "none",
+  "new_search_after_validation": false
+}

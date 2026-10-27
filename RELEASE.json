@@ -1,0 +1,14 @@
+{
+  "release": "DASE7506-MP2-v4-evidence-fusion",
+  "author": "Zhu Jinting",
+  "student_id": "3036709066",
+  "accuracy": 84.36830835117773,
+  "correct": 394,
+  "n": 467,
+  "method": "code/evidence_method.py",
+  "checkpoint": "code/runs/evidence_v4/model_bundle",
+  "original_freeze_sha256": "dd6c6526c967c08c9654e90f41daec5f6904c4cafd6318a72898dee1d36db5fa",
+  "inference_assets_bytes": 24191,
+  "source_changes": "Frozen inference, feature, training files and assets copied byte-for-byte. Evaluation/verification wrappers normalize hash-manifest separators; optional original-source lookup made portable. Requirements pin the tested NumPy version.",
+  "external_submission_performed": false
+}

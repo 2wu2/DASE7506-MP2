@@ -1,0 +1,8 @@
+{
+  "robust_method.py": "ac89f845e4c0c51b4c48415e0015da9ba7d2b5db24c50a535eecdf4539998492",
+  "features.py": "9bebbfdbc090abb567b3c49a568e31f2ce1f6294b8e705b440516e1d16eabb79",
+  "train_robust.py": "529403ce2dc14d88648fe257c9a56f87250cfdc0b75a44d5bdf58d172b5961ef",
+  "runs\\robust_v3\\protocol.json": "81ffe7a9a29bcaa5f74b5566c731fbb85ec55c47051af1e48e9be2d27bd1b445",
+  "runs\\robust_v3\\model_bundle\\config.json": "5317e86496f354aa398494a497dadbb7ff4c4894c127afd7a2c586c23c270f70",
+  "runs\\robust_v3\\model_bundle\\weights.npz": "1000e895f979faadc2bd24be03329e9e7a575a66812fbf2be276c5c45ad46398"
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_hashes": true,
+  "batch_independence": true,
+  "whole_bank_candidate_permutation": true,
+  "new_ids": true,
+  "empty_bank": true,
+  "asset_only_inference": true,
+  "official_scorer_unchanged": true,
+  "all_choices_valid": true,
+  "validation_fresh_process_seconds": 3.0623887999681756,
+  "reference_cpu_verified": false,
+  "test_accessed": false
+}

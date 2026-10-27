@@ -1,0 +1,94 @@
+{
+  "seed": 20261027,
+  "folds": 3,
+  "configs": [
+    {
+      "name": "v1_original",
+      "family": "ridge",
+      "mode": "embedding",
+      "alpha": 100,
+      "boost": 1,
+      "mixed_only": false,
+      "consensus_weight": 0.25,
+      "grouping": false,
+      "mask": false
+    },
+    {
+      "name": "v1_valid",
+      "family": "ridge",
+      "mode": "embedding",
+      "alpha": 100,
+      "boost": 1,
+      "mixed_only": false,
+      "consensus_weight": 0.25,
+      "grouping": false,
+      "mask": true
+    },
+    {
+      "name": "v2_original",
+      "family": "ridge",
+      "mode": "combined",
+      "alpha": 1000,
+      "boost": 3,
+      "mixed_only": true,
+      "consensus_weight": 0,
+      "grouping": false,
+      "mask": false
+    },
+    {
+      "name": "ridge_uniform",
+      "family": "ridge",
+      "mode": "combined",
+      "alpha": 1000,
+      "boost": 1,
+      "mixed_only": true,
+      "consensus_weight": 0,
+      "grouping": false,
+      "mask": true
+    },
+    {
+      "name": "linear_group_003",
+      "family": "listwise",
+      "mode": "combined",
+      "reg": 0.03,
+      "grouping": true,
+      "mask": true,
+      "hidden": 0,
+      "epochs": 80
+    },
+    {
+      "name": "linear_group_01",
+      "family": "listwise",
+      "mode": "combined",
+      "reg": 0.1,
+      "grouping": true,
+      "mask": true,
+      "hidden": 0,
+      "epochs": 80
+    },
+    {
+      "name": "mlp32_group_001",
+      "family": "listwise",
+      "mode": "combined",
+      "reg": 0.001,
+      "grouping": true,
+      "mask": true,
+      "hidden": 32,
+      "epochs": 60
+    },
+    {
+      "name": "mlp32_group_01",
+      "family": "listwise",
+      "mode": "combined",
+      "reg": 0.01,
+      "grouping": true,
+      "mask": true,
+      "hidden": 32,
+      "epochs": 60
+    }
+  ],
+  "selection": "pooled train OOF hard accuracy, then overall; ties retain earlier config",
+  "validation": "evaluate once after CV selection and full-train refit",
+  "test": "never accessed",
+  "tuning_after_validation": false
+}

@@ -1,0 +1,10 @@
+Student ID: 3036709066
+Name: Zhu Jinting
+Official accuracy to enter: 84.36830835117773
+Correct: 394 / 467
+Release: DASE7506-MP2-v4-evidence-fusion
+Method: code/evidence_method.py
+Checkpoint: code/runs/evidence_v4/model_bundle
+Report: REPORT.pdf (6 pages, English)
+
+Publish this code release and provide its publicly accessible repository URL, plus the matching checkpoint URL, through the course submission website. Complete the GitHub issue creation step. No online publication or submission has been performed by this packaging workflow.

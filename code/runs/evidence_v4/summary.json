@@ -1,0 +1,101 @@
+{
+  "selected": "fusion",
+  "cv": {
+    "variant": "fusion",
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4387,
+        "accuracy": 92.26077812828602
+      },
+      "hard": {
+        "n": 2114,
+        "correct": 1746,
+        "accuracy": 82.5922421948912
+      },
+      "minority": {
+        "n": 367,
+        "correct": 192,
+        "accuracy": 52.31607629427793
+      }
+    },
+    "per_fold": [
+      {
+        "overall": {
+          "n": 1589,
+          "correct": 1467,
+          "accuracy": 92.32221522970421
+        },
+        "hard": {
+          "n": 707,
+          "correct": 585,
+          "accuracy": 82.74398868458275
+        },
+        "minority": {
+          "n": 123,
+          "correct": 66,
+          "accuracy": 53.65853658536586
+        }
+      },
+      {
+        "overall": {
+          "n": 1584,
+          "correct": 1457,
+          "accuracy": 91.98232323232324
+        },
+        "hard": {
+          "n": 704,
+          "correct": 577,
+          "accuracy": 81.96022727272727
+        },
+        "minority": {
+          "n": 122,
+          "correct": 61,
+          "accuracy": 50.0
+        }
+      },
+      {
+        "overall": {
+          "n": 1582,
+          "correct": 1463,
+          "accuracy": 92.47787610619469
+        },
+        "hard": {
+          "n": 703,
+          "correct": 584,
+          "accuracy": 83.07254623044096
+        },
+        "minority": {
+          "n": 122,
+          "correct": 65,
+          "accuracy": 53.278688524590166
+        }
+      }
+    ],
+    "seconds": 8.53376149997348,
+    "folds_improved_over_baseline": 3
+  },
+  "validation": {
+    "overall": {
+      "n": 798,
+      "correct": 752,
+      "accuracy": 94.23558897243107
+    },
+    "hard": {
+      "n": 355,
+      "correct": 309,
+      "accuracy": 87.04225352112675
+    },
+    "minority": {
+      "n": 60,
+      "correct": 37,
+      "accuracy": 61.66666666666667
+    }
+  },
+  "total_training_seconds": 39.66023649997078,
+  "feature_seconds": 12.750200600014068,
+  "asset_bytes": 24191,
+  "seed": 20261027,
+  "threads": 4,
+  "test_accessed": false
+}

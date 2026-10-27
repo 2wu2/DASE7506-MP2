@@ -1,0 +1,47 @@
+{
+  "clean_training_reproduced": true,
+  "asset_bytes_identical": {
+    "base.npz": true,
+    "config.json": true,
+    "meta.npz": true,
+    "rules.npz": true
+  },
+  "prediction_choices_identical": true,
+  "correct": 394,
+  "n": 467,
+  "accuracy": 84.36830835117773,
+  "steps": [
+    {
+      "step": "data-check",
+      "returncode": 0,
+      "seconds": 2.552339799993206
+    },
+    {
+      "step": "feature-check",
+      "returncode": 0,
+      "seconds": 0.346362299984321
+    },
+    {
+      "step": "feature-extraction",
+      "returncode": 0,
+      "seconds": 11.731053100025747
+    },
+    {
+      "step": "clean-training",
+      "returncode": 0,
+      "seconds": 32.46516239998164
+    },
+    {
+      "step": "official-final-evaluation",
+      "returncode": 0,
+      "seconds": 2.4994173999875784
+    }
+  ],
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "no_external_network_used": true,
+  "reference_cpu_verified": false,
+  "portable_evaluation_wrapper_retested": true,
+  "portable_manifest_path_normalization": true
+}

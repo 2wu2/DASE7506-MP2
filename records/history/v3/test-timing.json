@@ -1,0 +1,9 @@
+{
+  "fresh_prediction_plus_scoring_seconds": 1.2096238000085577,
+  "threads": 4,
+  "frozen_hashes_verified": true,
+  "reference_cpu_verified": false,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel"
+}

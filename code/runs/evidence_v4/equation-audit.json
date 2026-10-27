@@ -1,0 +1,194 @@
+[
+  {
+    "question": "Alfred is storing a tonne of maize each month for the next 2 years.  If 5 tonnes are stolen and 8 tonnes are given to him as a donation, how many tonnes of maize does he have at the end of the 2 years.",
+    "equation": {
+      "lhs": "24 - 5 + 8",
+      "rhs": "25",
+      "expected": "27",
+      "stated": "25",
+      "answer_stated": "25",
+      "answer_expected": "27",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.07407407407407407
+    },
+    "text": "Alfred starts with **1 tonne** of maize each month.  \nFor **2 years**, that's **24 months**.\n\nSo, the total maize he starts with is:  \n$$ 1 \\text{ tonne/month} \\times 24 \\text{ months} = 24 \\text{ tonnes} $$\n\nNow, **5 tonnes are stolen** and **8 tonnes are given as a donation**.  \nSo, the total maize at the end is:  \n$$ 24 - 5 + 8 = 25 $$\n\n### Final Answer:\n$$ \\boxed{25} $$"
+  },
+  {
+    "question": "An apple tree produces 40 apples in its first year.  The second year the apple tree produces 8 more than double the amount of apples that it produced the first year, and the third year production went down by a fourth due to an insect infestation.  How many apples did the tree produce in total in the first three years?",
+    "equation": {
+      "lhs": "2 * 40 + 8",
+      "rhs": "96",
+      "expected": "88",
+      "stated": "96",
+      "answer_stated": "96",
+      "answer_expected": "88",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.08333333333333333
+    },
+    "text": "We are told:\n\n- **First year**: 40 apples  \n- **Second year**: 8 more than double the first year → $ 2 \\times 40 + 8 = 96 $ apples  \n- **Third year**: 1/4 of the previous year's production → $ \\frac{1}{4} \\times 96 = 24 $ apples  \n\nNow, add them together:\n\n$$\n40 + 96 + 24 = \\boxed{160}\n$$\n\n### Final Answer:  \n**160** apples."
+  },
+  {
+    "question": "An apple tree produces 40 apples in its first year.  The second year the apple tree produces 8 more than double the amount of apples that it produced the first year, and the third year production went down by a fourth due to an insect infestation.  How many apples did the tree produce in total in the first three years?",
+    "equation": {
+      "lhs": "88 - ((1)/(4)) * 88",
+      "rhs": "((352)/(4)) - ((352)/(4))",
+      "expected": "66",
+      "stated": "0",
+      "answer_stated": "0",
+      "answer_expected": "66",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 1.0
+    },
+    "text": "We are given the following:\n\n- **First year**: 40 apples  \n- **Second year**: 8 more than double the first year  \n- **Third year**: 1/4 less than the second year  \n\nLet's solve step by step:\n\n### Step 1: Second year\nThe second year produces **8 more than double the first year**:\n\n$$\n2 \\times 40 = 80 \\quad \\text{(double first year)} \\\\\n80 + 8 = 88 \\quad \\text{(second year)}\n$$\n\n### Step 2: Third year\nThe third year produces **1/4 less than the second year**:\n\n$$\n88 - \\frac{1}{4} \\times 88 = \\frac{352}{4} - \\frac{352}{4} = 88 - 22 = 66\n$$\n\n### Step 3: Total production over three years\n\n$$\n40 + 88 + 66 = 194\n$$\n\n### Final Answer:\n\n$$\n\\boxed{194}\n$$"
+  },
+  {
+    "question": "An apple tree produces 40 apples in its first year.  The second year the apple tree produces 8 more than double the amount of apples that it produced the first year, and the third year production went down by a fourth due to an insect infestation.  How many apples did the tree produce in total in the first three years?",
+    "equation": {
+      "lhs": "((352)/(4)) - ((352)/(4))",
+      "rhs": "88 - 22",
+      "expected": "0",
+      "stated": "66",
+      "answer_stated": "66",
+      "answer_expected": "0",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 1.0
+    },
+    "text": "We are given the following:\n\n- **First year**: 40 apples  \n- **Second year**: 8 more than double the first year  \n- **Third year**: 1/4 less than the second year  \n\nLet's solve step by step:\n\n### Step 1: Second year\nThe second year produces **8 more than double the first year**:\n\n$$\n2 \\times 40 = 80 \\quad \\text{(double first year)} \\\\\n80 + 8 = 88 \\quad \\text{(second year)}\n$$\n\n### Step 2: Third year\nThe third year produces **1/4 less than the second year**:\n\n$$\n88 - \\frac{1}{4} \\times 88 = \\frac{352}{4} - \\frac{352}{4} = 88 - 22 = 66\n$$\n\n### Step 3: Total production over three years\n\n$$\n40 + 88 + 66 = 194\n$$\n\n### Final Answer:\n\n$$\n\\boxed{194}\n$$"
+  },
+  {
+    "question": "Bryan bought three different bottles of milk. The bottles contain the following volumes of milk: 2 liters, 750 milliliters, 250 milliliters. How many liters of milk did Bryan buy in total?",
+    "equation": {
+      "lhs": "2000 + 750 + 250",
+      "rhs": "2900",
+      "expected": "3000",
+      "stated": "2900",
+      "answer_stated": "2900",
+      "answer_expected": "3000",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.03333333333333333
+    },
+    "text": "Bryan bought three different bottles of milk with the following volumes:  \n- 2 liters  \n- 750 milliliters  \n- 250 milliliters  \n\nConvert the 2 liters to milliliters:  \n$ 2 \\, \\text{liters} = 2000 \\, \\text{milliliters} $\n\nAdd the volumes:  \n$ 2000 + 750 + 250 = 2900 \\, \\text{milliliters} $\n\nConvert back to liters:  \n$ 2900 \\, \\text{milliliters} = 2.9 \\, \\text{liters} $\n\n### Final Answer:  \n#### $ \\boxed{2.9} $"
+  },
+  {
+    "question": "Susy goes to a large school with 800 students, while Sarah goes to a smaller school with only 300 students.  At the start of the school year, Susy had 100 social media followers.  She gained 40 new followers in the first week of the school year, half that in the second week, and half of that in the third week.  Sarah only had 50 social media followers at the start of the year, but she gained 90 new followers the first week, a third of that in the second week, and a third of that in the third week.  After three weeks, how many social media followers did the girl with the most total followers have?",
+    "equation": {
+      "lhs": "50 + 90 + 30 + 30",
+      "rhs": "190",
+      "expected": "200",
+      "stated": "190",
+      "answer_stated": "190",
+      "answer_expected": "200",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.05
+    },
+    "text": "We are given the following information about the number of social media followers for **Susy** and **Sarah**:\n\n### Susy:\n- Start: 100 followers\n- Week 1: +40\n- Week 2: +20\n- Week 3: +20\n- **Total followers after 3 weeks**:  \n  $ 100 + 40 + 20 + 20 = 180 $\n\n### Sarah:\n- Start: 50 followers\n- Week 1: +90\n- Week 2: +30\n- Week 3: +30\n- **Total followers after 3 weeks**:  \n  $ 50 + 90 + 30 + 30 = 190 $\n\n### Final Answer:\n\n$$\n\\boxed{190}\n$$"
+  },
+  {
+    "question": "Dylan filled his glass with ice cubes before he poured his soda into it. He counted and there were 8 ice cubes in his glass. Later when he prepares a pitcher of lemonade he puts two times as many ice cubes in the pitcher. Then it is time to refill the ice cube trays which have 12 spaces each for ice cubes. How many trays does Dylan need to fill if he used exactly all the ice they had in them?",
+    "equation": {
+      "lhs": "((16)/(12))",
+      "rhs": "1",
+      "expected": "4/3",
+      "stated": "1",
+      "answer_stated": "1",
+      "answer_expected": "4/3",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.25
+    },
+    "text": "Dylan filled his glass with 8 ice cubes. Later, he prepared a pitcher with **2 times as many ice cubes** as in the glass, so:\n\n$$\n2 \\times 8 = 16 \\text{ ice cubes in the pitcher}\n$$\n\nHe used **all the ice** in the trays, which have **12 spaces each**. To find how many **trays** he needs:\n\n$$\n\\frac{16}{12} = 1 \\text{ tray}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$"
+  },
+  {
+    "question": "There is a playground that is surrounded by a square fence that has a side length of 27 yards. There is a 12 yard by 9 yard garden that has fencing around it. How many yards of fencing do the playground and garden have together?",
+    "equation": {
+      "lhs": "(12 + 9) * 2",
+      "rhs": "24",
+      "expected": "42",
+      "stated": "24",
+      "answer_stated": "24",
+      "answer_expected": "42",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.42857142857142855
+    },
+    "text": "We are given:\n\n- A square playground with side length **27 yards**, so the **total fencing** around the playground is:\n  $$\n  27 \\times 4 = 108 \\text{ yards}\n  $$\n\n- A **12-yard by 9-yard garden** has fencing around it. The total fencing is:\n  $$\n  (12 + 9) \\times 2 = 24 \\text{ yards}\n  $$\n\nNow, **combine the fencing** from both the playground and the garden:\n\n$$\n108 + 24 = 132 \\text{ yards}\n$$\n\n### Final Answer:\n$$\n\\boxed{132}\n$$"
+  },
+  {
+    "question": "There are 26 chickens, 40 piglets, and 34 goats at Stacy’s farm. A really bad storm hits and half of all the animals get sick. How many animals in total get sick?",
+    "equation": {
+      "lhs": "26   + 40   + 34",
+      "rhs": "90",
+      "expected": "100",
+      "stated": "90",
+      "answer_stated": "90",
+      "answer_expected": "100",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.1
+    },
+    "text": "We are told:\n\n- There are **26 chickens**,  \n- There are **40 piglets**,  \n- There are **34 goats**,  \n- **Half of all the animals get sick**.\n\n---\n\n### Step 1: Total number of animals\n\n$$\n26 \\text{ chickens} + 40 \\text{ piglets} + 34 \\text{ goats} = 90 \\text{ animals}\n$$\n\n---\n\n### Step 2: Half of all animals get sick\n\n$$\n\\frac{1}{2} \\times 90 = 45\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{45}\n$$"
+  },
+  {
+    "question": "Every Sunday, Sean picks up 1 almond croissant and 1 salami and cheese croissant that are $4.50 each.  He also grabs a plain croissant for $3.00 and a loaf of focaccia for $4.00.  On his way home he stops and picks up 2 lattes for $2.50 each.  How much did he spend?",
+    "equation": {
+      "lhs": "9.00 + 3.00 + 4.00 + 5.00",
+      "rhs": "25.00",
+      "expected": "21",
+      "stated": "25",
+      "answer_stated": "25",
+      "answer_expected": "21",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.16
+    },
+    "text": "Sean spends:\n\n- $4.50 (croissant) × 2 = $9.00  \n- $3.00 (plain croissant)  \n- $4.00 (focaccia)  \n- $2.50 × 2 = $5.00  \n\nTotal cost: $9.00 + $3.00 + $4.00 + $5.00 = **$25.00**\n\n#### <numeric answer> = 25.00"
+  },
+  {
+    "question": "Every Sunday, Sean picks up 1 almond croissant and 1 salami and cheese croissant that are $4.50 each.  He also grabs a plain croissant for $3.00 and a loaf of focaccia for $4.00.  On his way home he stops and picks up 2 lattes for $2.50 each.  How much did he spend?",
+    "equation": {
+      "lhs": "4.50 + 4.50 + 3.00 + 4.00 + 2.50 + 2.50",
+      "rhs": "19.50",
+      "expected": "21",
+      "stated": "39/2",
+      "answer_stated": "39/2",
+      "answer_expected": "21",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.07142857142857142
+    },
+    "text": "Sean buys:\n- 1 almond croissant: $4.50  \n- 1 salami and cheese croissant: $4.50  \n- 1 plain croissant: $3.00  \n- 1 loaf of focaccia: $4.00  \n- 2 lattes: $2.50 each = $5.00  \n\nTotal cost:  \n$4.50 + $4.50 + $3.00 + $4.00 + $2.50 + $2.50 = **$19.50**\n\n#### <numeric answer> 19.50"
+  },
+  {
+    "question": "A laboratory needs flasks, test tubes, and safety gear to carry out its experiments. They were given a $325 budget for the month. They bought $150 worth of flasks, spent two-thirds of that amount on test tubes, and used half of the test tube cost on safety gear. How many dollars of their budget remained?",
+    "equation": {
+      "lhs": "325 - 150 - 100 - 50",
+      "rhs": "55",
+      "expected": "25",
+      "stated": "55",
+      "answer_stated": "55",
+      "answer_expected": "25",
+      "exact": false,
+      "rounded": false,
+      "wrong": true,
+      "residual": 0.5454545454545454
+    },
+    "text": "We are given the following:\n\n- Total budget: $325  \n- Flasks cost: $150  \n- Two-thirds of flasks cost: $150 × (2/3) = $100  \n- Half of test tube cost is used for safety gear: $100 × (1/2) = $50  \n\nSo, the remaining budget is:\n\n$$\n325 - 150 - 100 - 50 = 55\n$$\n\n#### <numeric answer> 55"
+  }
+]

@@ -1,0 +1,10 @@
+{"protocol": "dase7506-mp2-open-hard-verifier-v5", "split": "test", "prediction_seconds": 1.033654899976682}
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "split": "test",
+  "correct": 394,
+  "n": 467,
+  "accuracy": 84.36830835117773,
+  "scoring_seconds": 0.03888440004084259
+}
+{"fresh_prediction_plus_scoring_seconds": 1.719416000007186, "threads": 4, "frozen_hashes_verified": true, "reference_cpu_verified": false, "python": "3.12.14", "platform": "Windows-11-10.0.26200-SP0", "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel"}

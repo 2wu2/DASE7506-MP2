@@ -1,0 +1,13 @@
+{
+  "evidence_method.py": "8888015ef825a66dc36c95699bbf3240118d51a2fa0cda65b01baa7662f6cbf2",
+  "evidence_features.py": "20bef7017803084516fabae96c18316a3e063c5367d7e4223bd2ac0eece53ba0",
+  "features.py": "9bebbfdbc090abb567b3c49a568e31f2ce1f6294b8e705b440516e1d16eabb79",
+  "robust_method.py": "ac89f845e4c0c51b4c48415e0015da9ba7d2b5db24c50a535eecdf4539998492",
+  "train_evidence.py": "babf397df6048d08008ba37cd10963a755f4f32661fab13e270cded9739d3814",
+  "train_robust.py": "529403ce2dc14d88648fe257c9a56f87250cfdc0b75a44d5bdf58d172b5961ef",
+  "runs\\evidence_v4\\protocol.json": "cf43e6de83e2792f0e7117a8df27267e618973179c45aa0d39c3e04a328327fa",
+  "runs\\evidence_v4\\model_bundle\\base.npz": "1000e895f979faadc2bd24be03329e9e7a575a66812fbf2be276c5c45ad46398",
+  "runs\\evidence_v4\\model_bundle\\config.json": "738dcae8d12976303db0a01f3eb11210b661775b95dbb052c06043d874aeee32",
+  "runs\\evidence_v4\\model_bundle\\meta.npz": "bb2eaf3b7b01881271940e750c152f85d64c847b1b60737340806a1c3941539a",
+  "runs\\evidence_v4\\model_bundle\\rules.npz": "00228ceb1f084dbc6f06b2b176c5090ce8e3c882db70da2a8c24e4953c993dec"
+}

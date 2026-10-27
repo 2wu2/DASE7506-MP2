@@ -1,0 +1,7 @@
+{
+  "submission.py": "1a25ac2bf2b6e08353477ad7a0e27491c9d35d13d56a7c5b811fa91d63c25c65",
+  "features.py": "9bebbfdbc090abb567b3c49a568e31f2ce1f6294b8e705b440516e1d16eabb79",
+  "optimize_hard.py": "27e459441044aee67482e5857fad32750b240233c79f728ec0d1927d67e0dff2",
+  "runs\\hard_v2\\model_bundle\\config.json": "d8dbbb96eab35fe0e9f1efd2c4acdb23010d0c7d52860ae1bbbee89c42d0a101",
+  "runs\\hard_v2\\model_bundle\\weights.npz": "1b7792eeea7786f8d27f541056e455bfe433718933810da29c51759ac02ef138"
+}

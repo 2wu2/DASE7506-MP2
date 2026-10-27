@@ -1,0 +1,8 @@
+{
+  "explicit_cases": 25,
+  "generated_equations": 600,
+  "fraction_and_percentage": true,
+  "unsupported_is_unknown": true,
+  "safe_ast": true,
+  "feature_dimensions": 46
+}

@@ -1,0 +1,4 @@
+# The release ships SHA256SUMS.json and verify_package.py hashes every delivered file.
+# Disable all line-ending / filter conversion so a fresh clone on any platform
+# reproduces the delivered bytes exactly.
+* -text
